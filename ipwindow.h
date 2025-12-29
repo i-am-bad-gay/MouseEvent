@@ -1,6 +1,6 @@
 #ifndef IPWINDOW_H
 #define IPWINDOW_H
-
+#include <QScrollArea>
 #include <QMainWindow>
 #include <QImage>
 #include <QLabel>
@@ -41,6 +41,7 @@ private:
     QWidget     *central;
     QLabel      *imgwin;
     QImage      img;
+    QScrollArea *scrollarea;
 
     // 子視窗指標
     imagetransform *gwindow;
