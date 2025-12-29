@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-8da8c15459ab9e35dd11.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mouseevent",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mouseevent::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mouseevent-Debug-2b035cd509d4b1f095d6.json",
+					"name" : "mouseevent",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mouseevent_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mouseevent_autogen-Debug-5c55aa136d9cb8aa41a8.json",
+					"name" : "mouseevent_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mouseevent_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mouseevent_autogen_timestamp_deps-Debug-e2e85e105356b8fbfc85.json",
+					"name" : "mouseevent_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/mouseevent/build/Desktop_Qt_6_9_1_MinGW_64_bit-Debug",
+		"source" : "D:/mouseevent"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
